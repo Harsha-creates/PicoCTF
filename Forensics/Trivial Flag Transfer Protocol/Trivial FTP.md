@@ -46,3 +46,27 @@ with some spaces:
 `I USED THE PROGRAM AND HID IT WITH-DUEDILIGENCE.CHECK OUT THE PHOTOS`
 
 ## Pictures
+
+![picture1](./picture1.bmp)
+![picture2](https://github.com/Harsha-creates/PicoCTF/assets/68886253/877c83cf-ffe3-435d-8e6b-f52a12e9a0e1)
+![picture2](./picture3.bmp)
+
+Now,Install the [program](./program) using debian package manager `dpkg` : 
+`sudo dpkg -i program.deb`
+
+![image](https://github.com/Harsha-creates/PicoCTF/assets/68886253/a2e55381-342d-4977-8f36-39b8468c68c6)
+
+Let see how to use Steghide
+![image](https://github.com/Harsha-creates/PicoCTF/assets/68886253/49e4a721-100f-48bd-ac09-cfb5bfb9812c)
+
+Lets check the each picture using Steghide with password `DUEDILIGENCE` a hint from plan
+
+![image](https://github.com/Harsha-creates/PicoCTF/assets/68886253/2869867d-bd7c-4c31-b481-ffe70b6fd460)
+
+There is a flag embedded in [picture3](./picture3)
+
+Extract The embedded files: `steghide extract -sf picture3.bmp`
+
+`cat flag.txt`
+
+**Flag:** picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
