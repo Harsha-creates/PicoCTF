@@ -63,7 +63,7 @@ Lets check the each picture using Steghide with password `DUEDILIGENCE` a hint f
 
 ![image](https://github.com/Harsha-creates/PicoCTF/assets/68886253/2869867d-bd7c-4c31-b481-ffe70b6fd460)
 
-There is a flag embedded in [picture3](./picture3)
+There is a [flag](./flag.txt) embedded in [picture3](./picture3)
 
 Extract The embedded files: `steghide extract -sf picture3.bmp`
 
