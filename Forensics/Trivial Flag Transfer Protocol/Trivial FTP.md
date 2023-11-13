@@ -17,7 +17,7 @@ Click "Save All" to save them.
 
 Analyze each one of them.
 
-Open instructions.txt: `cat instructions`
+Open [instructions.txt](./instructions.txt): `cat instructions`
 
 ```text
 GSGCQBRFAGRAPELCGBHEGENSSVPFBJRZHFGQVFTHVFRBHESYNTGENAFSRE.SVTHERBHGNJNLGBUVQRGURSYNTNAQVJVYYPURPXONPXSBEGURCYNA
@@ -34,7 +34,7 @@ If we add spaces we can see the hint
 
 `TFTP DO ESNTENCRYPT OUR TRAFFIC SO WE MUST DISGUISE OUR FLAG TRANSFER.FIGURE OUT A WAY TO HIDE THE FLAG AND I WILL CHECK BACK FOR THE PLAN`
 
-Open plan: `cat plan`
+Open [plan](./plan): `cat plan`
 `VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF`
 
 Once again, it is encrypted using ROT13. Here's the decrypted message
@@ -63,7 +63,7 @@ Lets check the each picture using Steghide with password `DUEDILIGENCE` a hint f
 
 ![image](https://github.com/Harsha-creates/PicoCTF/assets/68886253/2869867d-bd7c-4c31-b481-ffe70b6fd460)
 
-There is a [flag](./flag.txt) embedded in [picture3](./picture3)
+There is a [flag](./flag.txt) embedded in [picture3](./picture3.bmp)
 
 Extract The embedded files: `steghide extract -sf picture3.bmp`
 
